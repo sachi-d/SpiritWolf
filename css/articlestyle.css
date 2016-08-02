@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2016, 1:57:13 PM
+    Author     : Sachi
+*/
+
+.center-image{
+    text-align: center;
+}
+
+.right-image{
+    text-align: right;
+}
+.left-image{
+    text-align: left;
+}
+.inline-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.center-heading{
+    text-align: center;
+}
+.right-heading{
+    text-align: right;
+}
+h1.article-link a{
+    color: #484848;
+}
+h1.article-link a:hover{
+    color: #989898;
+    text-decoration: none;
+}

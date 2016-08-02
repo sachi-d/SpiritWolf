@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Developed by Sachithra Dangalla
+${licensePrefix}2016 ${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
