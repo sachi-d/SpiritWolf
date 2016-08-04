@@ -11,24 +11,24 @@
     <div class="col-md-12" style="height: 30px">
         <ul id="navigation1">
             <li >
-                <a href="/SpiritWolf/login.html">Login</a>
+                <a href="login.html">Login</a>
             </li>
             <li >
-                <a href="/SpiritWolf/createaccount.html">Create Account</a>
+                <a href="createaccount.html">Create Account</a>
             </li>
         </ul>
     </div>
-    <a href="/SpiritWolf/index.php"><img id="header-logo" src="/SpiritWolf/images/MergedLayers.png" alt="Spirit Wolf Sound"></a>
+    <a href="index.php"><img id="header-logo" src="images/MergedLayers.png" alt="Spirit Wolf Sound"></a>
     <div class="col-md-12" >
         <ul id="navigation2">
             <li >
-                <a href="/SpiritWolf/index.php">Home</a>
+                <a href="index.php">Home</a>
             </li>
             <li >
-                <a href="/SpiritWolf/about.php">About</a>
+                <a href="about.php">About</a>
             </li>
             <li class="dropdown">
-                <a href="/SpiritWolf/articles/" class="dropbtn">Articles</a>
+                <a href="articles/" class="dropbtn">Articles</a>
                 <div class="dropdown-content">
                     <?php
                     $dir = "./articles";
@@ -42,7 +42,7 @@
                                 $foo = str_replace(".php", "", $foo);
                                 $foo = ucwords($foo);
                                 ?>
-                                <a class="dropdown-content-a" href="<?php echo "/SpiritWolf/articles/$entry" ?>"><?php echo $foo ?></a>
+                                <a class="dropdown-content-a" href="<?php echo "articles/$entry" ?>"><?php echo $foo ?></a>
                                 <?php
                             }
                         }
@@ -53,7 +53,7 @@
                 </div>
             </li>
             <li >
-                <a href="/SpiritWolf/forum.php">Forum</a>
+                <a href="forum.php">Forum</a>
             </li>
         </ul>
     </div>

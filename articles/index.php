@@ -11,7 +11,7 @@
     <body >
 
         <?php
-        include '../header.php';
+        include '../article_header.php';
         ?>
         <div class="col-md-12">
             <div class="col-md-1">  </div>
@@ -39,7 +39,7 @@
             <div class="col-md-1">            </div>
         </div>
 <?php
-include '../footer.php';
+include '../article_footer.php';
 ?>
     </body>
 </html>

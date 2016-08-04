@@ -102,5 +102,7 @@
 <script>
     document.title = "Sample Title";
 </script>
+
+<?php include '../social_share.php'; ?>
 <?php include '../article_footer.php'; ?>
 

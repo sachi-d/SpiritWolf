@@ -36,3 +36,19 @@ h1.article-link a:hover{
     color: #989898;
     text-decoration: none;
 }
+
+.share-buttons{
+    display: block;
+}
+.share-caption p{
+    text-align: center;
+    /*color: blue;*/
+    font-size: 20px;
+    font-weight: bolder;
+}
+.facebook-share button{
+    background-color: blue;
+}
+.ff{
+    height: 30px;
+}
