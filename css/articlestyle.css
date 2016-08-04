@@ -37,6 +37,14 @@ h1.article-link a:hover{
     text-decoration: none;
 }
 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
 .share-buttons{
     display: block;
 }
@@ -52,3 +60,4 @@ h1.article-link a:hover{
 .ff{
     height: 30px;
 }
+
