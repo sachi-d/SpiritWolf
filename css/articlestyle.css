@@ -7,6 +7,10 @@ and open the template in the editor.
     Created on : Jul 31, 2016, 1:57:13 PM
     Author     : Sachi
 */
+.article-heading{
+    text-align: center;
+    text-decoration: underline;
+}
 
 .center-image{
     text-align: center;
@@ -47,8 +51,10 @@ display: inline;
 
 .share-buttons{
     display: block;
+    text-align:center;
 }
 .share-caption p{
+    margin-top:30px;
     text-align: center;
     /*color: blue;*/
     font-size: 20px;
@@ -61,3 +67,11 @@ display: inline;
     height: 30px;
 }
 
+#other-links{
+    font-weight: bold;
+}
+
+#other-links img{
+    border: 3px outset #c9c9c9;
+    height:30px;
+}

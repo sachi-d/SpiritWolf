@@ -53,11 +53,22 @@
                 </div>
             </li>
             <li >
-                <a href="forum.php">Forum</a>
+                <a href="./forum">Forum</a>
             </li>
         </ul>
     </div>
 </div>
+<script>
+window.setInterval(function(){
 
+  var current = new Date();
+  var expiry  = new Date("August 20, 2016 12:00:00")
+
+  if(current.getTime()>expiry.getTime()){
+    $('#header-logo').hide();
+  }
+
+}, 3000);
+</script>
 <!--    </body>
 </html>-->

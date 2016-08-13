@@ -4,6 +4,12 @@
 
 
 
+<!-- Please change the title to the desired title-->
+<script>
+    document.title = "Sample Title";
+</script>
+
+
 
 
 <!-- START OF CONTENT -->
@@ -95,13 +101,22 @@
 
 
 
+
+
 <!-- END OF CONTENT -->
 
 
-<!-- Please change the title to the desired title-->
-<script>
-    document.title = "Sample Title";
-</script>
+
+
+
+
+
+
+
+
+
+
+<!-- DO NOT edit below this --> 
 
 <?php include '../social_share.php'; ?>
 <?php include '../article_footer.php'; ?>

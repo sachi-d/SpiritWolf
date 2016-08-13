@@ -13,6 +13,9 @@
         <?php
         include '../article_header.php';
         ?>
+        <div class="col-md-12 article-heading">
+            <h2>Articles</h2>
+        </div>
         <div class="col-md-12">
             <div class="col-md-1">  </div>
             <div class="col-md-10 article-body">
@@ -21,7 +24,7 @@
 
                     while (false !== ($entry = readdir($handle))) {
 
-                        if ($entry != "." && $entry != ".." && $entry != "images" && $entry != "index.php") {
+                        if ($entry != "." && $entry != ".." && $entry != "images" && $entry != "index.php" && $entry != "sample_page.php") {
                             $foo = $entry;
                             $foo = str_replace("_", " ", $foo);
                             $foo = str_replace(".php", "", $foo);

@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../css/articlestyle.css">
-        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="shortcut icon" href="../images/icon.png">
     </head>
     <body >
 
@@ -56,7 +56,7 @@
                         </div>
                     </li>
                     <li >
-                        <a href="../forum.php">Forum</a>
+                        <a href="../forum/">Forum</a>
                     </li>
                 </ul>
             </div>
