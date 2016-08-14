@@ -11,10 +11,10 @@
     <div class="col-md-12" style="height: 30px">
         <ul id="navigation1">
             <li >
-                <a href="login.html">Login</a>
+                <a href="http://spiritwolfsound.com/forum/ucp.php?mode=login">Login</a>
             </li>
             <li >
-                <a href="createaccount.html">Create Account</a>
+                <a href="http://spiritwolfsound.com/forum/ucp.php?mode=register">Create Account</a>
             </li>
         </ul>
     </div>
@@ -36,7 +36,7 @@
 
                         while (false !== ($entry = readdir($handle))) {
 
-                            if ($entry != "." && $entry != ".." && $entry != "images" && $entry != "index.php") {
+                            if ($entry != "." && $entry != ".." && $entry != "images" && $entry != "index.php"  && $entry != "sample_page.php") {
                                 $foo = $entry;
                                 $foo = str_replace("_", " ", $foo);
                                 $foo = str_replace(".php", "", $foo);
